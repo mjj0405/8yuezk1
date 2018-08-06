@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.wrap {
+  max-width: 640px;
+  min-width: 320px;
+  font-size: 0.38rem;
+  display: flex;
+  flex-direction: column;
+}
+.wrap header {
+  width: 100%;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  text-align: center;
+  background: green;
+}
+.wrap section {
+  flex: 1;
+  overflow: hidden;
+}
+.wrap section .tl {
+  width: 100%;
+  text-align: center;
+  font-size: 0.3rem;
+  background: #eee;
+  height: 1.2rem;
+  line-height: 1.2rem;
+}
+.wrap section .banner {
+  width: 100%;
+  height: 2.5rem;
+}
+.wrap section .banner .pic {
+  width: 60px;
+}
+.wrap section .banner .pic dl {
+  width: 100%;
+}
+.wrap section .banner .pic dl dt {
+  width: 80px;
+  height: 60px;
+}
+.wrap section .banner .pic dl dt img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.wrap section .list {
+  width: 100%;
+}
+.wrap section .list dl {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.wrap section .list dl dt {
+  width: 60%;
+}
+.wrap section .list dl dd {
+  width: 80px;
+  height: 80px;
+}
+.wrap section .list dl dd > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
